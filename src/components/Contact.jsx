@@ -41,10 +41,12 @@ const Contact = () => {
             title="let&#39;s b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
             />
+            <a href="https://www.linkedin.com/in/kanishk-kumar-95349127b/">
             <Button 
               title="contact us"
               containerClass="mt-10 bg-blue-50"
             />
+            </a>
         </div>
       </div>
     </div>

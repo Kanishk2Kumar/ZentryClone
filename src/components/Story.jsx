@@ -79,12 +79,13 @@ const Story = () => {
               Discover its secrets and shape your fate amidst infinite
               opportunities.
             </p>
-
+            <a href="https://github.com/Kanishk2Kumar">
             <Button
               id="realm-btn"
               title="discover prologue"
               containerClass="mt-5 bg-blue-50"
             />
+            </a>
           </div>
         </div>
       </div>

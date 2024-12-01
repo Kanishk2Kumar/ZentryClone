@@ -78,7 +78,7 @@ const Hero = () => {
 
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden">
+    <div id="home" className="relative h-dvh w-screen overflow-x-hidden">
         {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-blue-50">
           <div className="three-body">
@@ -141,7 +141,9 @@ const Hero = () => {
             <p className="mb-5 max-w-64 text-blue-100 font-medium text-lg">
                 Enter the Metagame Layer <br />Unleash the Play Economy
             </p>
+            <a href="https://www.youtube.com/watch?v=x1_-btXPWpc">
             <Button id="watch-trailer" title="Watch trailer" leftIcon={<TiLocationArrow />} containerClass="bg-yellow-300 flex-center gap-1"/>
+            </a>
             </div>
         </div>
       </div>
